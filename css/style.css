@@ -1047,7 +1047,7 @@ h3 {
 	left: 0;
 	right: 0;
 	z-index: 99;
-	background: #000;
+	background: rgba(0, 0, 0, 0.621);
 	transform: translateY(70px);
 	transition: transform 500ms ease, background 500ms ease;
 	-webkit-transition: transform 500ms ease, background 500ms ease;
@@ -5890,10 +5890,8 @@ h6 {
 .hrline {
 	border-style: solid;
 	border-color: black;
-	border-width: 2px;
-	border-radius: 20px;
-	margin-left: 10%;
-	margin-right: 10%;
+	border-width: 4	px;
+	border-radius: 30px;
 }
 /* contact cards */
 body .containercontact {
@@ -6012,9 +6010,9 @@ body .containercontact .card .box .content a:hover {
 	font-family: monospace;
 	font-size: medium;
 }
-.cardcont{
-  color: rgb(237, 221, 221);
-  font-size: small;
+.cardcont {
+	color: rgb(237, 221, 221);
+	font-size: small;
 }
 .cardposition {
 	text-decoration: underline;
@@ -6032,5 +6030,3 @@ body .containercontact .card .box .content a:hover {
 	color: white;
 	transition: color 0.3s ease;
 }
-
-
