@@ -1145,7 +1145,7 @@ h3 {
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text {
 	position: relative;
-	margin-bottom: 213px;
+	margin-bottom: 100px;
 	z-index: 3;
 	padding: 55px 8px 12px 0px;
 }
@@ -1417,7 +1417,7 @@ h3 {
 	-moz-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
-	font-size: 120px;
+	font-size: 100px;
 	top: -125px;
 	color: rgba(255, 255, 255, 0.08);
 	font-weight: 700;
