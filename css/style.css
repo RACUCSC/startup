@@ -5890,7 +5890,7 @@ h6 {
 .hrline {
 	border-style: solid;
 	border-color: black;
-	border-width: 4	px;
+	border-width: 4 px;
 	border-radius: 30px;
 }
 /* contact cards */
@@ -6029,4 +6029,34 @@ body .containercontact .card .box .content a:hover {
 	text-decoration: none;
 	color: white;
 	transition: color 0.3s ease;
+}
+/* categories */
+.accordion-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.accordion-header {
+	background-color: #f2f2f2;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.accordion-body {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.accordion-header:hover {
+	background-color: #ddd;
 }
