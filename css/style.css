@@ -1236,12 +1236,12 @@ h3 {
 /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text::before {
 	position: absolute;
-	background-image: url(../img/banner/path.png);
+	background-image: url(../img/banner/path2.png);
 	content: "";
 	background-repeat: no-repeat;
 	background-size: contain;
 	z-index: -1;
-	left: -14.5%;
+	left: -9.5%;
 	width: 120%;
 	height: 120%;
 	top: -7%;
@@ -1433,7 +1433,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_about.scss */
 .about_area {
-	padding-top: 200px;
+	padding-top: 125px;
 	padding-bottom: 100px;
 	position: relative;
 }
@@ -2119,6 +2119,7 @@ h3 {
 .event_area {
 	position: relative;
 	padding-bottom: 120px;
+	padding-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -2175,7 +2176,7 @@ h3 {
 	z-index: 9;
 	padding-top: 100px;
 	padding-bottom: 20px;
-	margin-bottom: 100px;
+	margin-bottom: -10px;
 }
 
 @media (max-width: 767px) {
