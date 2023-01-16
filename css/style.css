@@ -52,6 +52,11 @@
 	/* IE6-9 */
 }
 
+.logo-img img{
+	width: 200px;
+	height: 50px;
+}
+
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
 .event_area .double_line::before,
 .event_area .double_line::after {
@@ -1117,7 +1122,7 @@ h3 {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding-top: 300px;
+	padding-top: 225px;
 	padding-bottom: 100px;
 }
 
@@ -1193,7 +1198,7 @@ h3 {
 /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text.title_text2:after {
 	position: absolute;
-	background-image: url(../img/banner/path2.png);
+	/* background-image: url(../img/banner/path2.png); */
 	content: "";
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1236,7 +1241,7 @@ h3 {
 /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .title_text::before {
 	position: absolute;
-	background-image: url(../img/banner/path2.png);
+	/* background-image: url(../img/banner/path2.png); */
 	content: "";
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -1418,10 +1423,10 @@ h3 {
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
 	font-size: 100px;
-	top: -125px;
+	top: -70px;
 	color: rgba(255, 255, 255, 0.08);
 	font-weight: 700;
-	right: -87px;
+	right: -125px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
