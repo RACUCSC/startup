@@ -6152,17 +6152,18 @@ body .containercontact .card .box .content a:hover {
 	background-color: #ddd;
 }
 
-/* timeline by vinupa */
-div h1 {
-    color: #061020;
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 50px;
+/* CSS for timeline */
+
+.timeline {
+    margin-top: 20px;
+    color: #5ff2ff;
+    background: #ffffff;
 }
 
-div h3 {
+.timeline-content h3 {
     color: #ffac00;
     font-size: larger;
+	text-align: center;
 }
 
 .timeline img {
@@ -6171,14 +6172,12 @@ div h3 {
 
 .timeline {
     position: relative;
-    /* background: #00ccff; */
-    background: rgb(0, 204, 255);
-    background: linear-gradient(90deg, rgba(0, 204, 255, 1) 0%, rgba(0, 212, 255, 1) 80%, rgba(255, 255, 255, 1) 100%);
+    background: white;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
     padding: 5rem;
-    margin-bottom: 50px;
+    margin: 0 auto 1rem auto;
     overflow: hidden;
 }
 
