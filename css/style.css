@@ -6152,6 +6152,10 @@ body .containercontact .card .box .content a:hover {
 	background-color: #ddd;
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 /* CSS for timeline */
 
 .timeline {
@@ -6389,4 +6393,15 @@ body .containercontact .card .box .content a:hover {
     .timeline .timeline-row:nth-child(even) .timeline-content:after {
         display: none;
     }
+<<<<<<< Updated upstream
+=======
+}
+
+.containerreg {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-left: 5%;
+	margin-right: 5%;
+>>>>>>> Stashed changes
 }
